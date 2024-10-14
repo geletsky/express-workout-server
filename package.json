@@ -20,5 +20,8 @@
     "url": "https://github.com/Geletsky/express-workout-app/issues"
   },
   "homepage": "https://github.com/Geletsky/express-workout-app#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0"
+  }
 }
