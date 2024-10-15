@@ -14,7 +14,11 @@ export const getExerciseLog = asyncHandler(async (req, res) => {
 		},
 		include: {
 			exercise: true,
-			times: true
+			times: {
+				orderBy: {
+					id: 'asc'
+				}
+			}
 		}
 	})
 
